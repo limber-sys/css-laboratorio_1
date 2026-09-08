@@ -1,0 +1,8 @@
+:root {
+    --bg: #105f1b;
+}
+body {
+    background-color: #278652;
+    color: rgba(117, 247, 122, 0.592);
+    margin: 0;
+}
