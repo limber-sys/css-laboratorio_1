@@ -1,12 +1,12 @@
 :root{
-    --bg: #5e6cbb;
-    --card: #1c234b;
-    --greed: #c3dccc;
-    --greed2: #232350;
-    --text: #324057;
-    --muted: #5f68a8;
-    --border: #314d72;
-    --white: #342f2f;
+    --bg: #0a1a10;
+    --card: #112318;
+    --greed: #1db954;
+    --greed2: #25d966;
+    --text: #e8f5eb;
+    --muted: #8aab90;
+    --border: #1e3a24;
+    --white: #ffffff;
 
 }
 * {
@@ -175,7 +175,7 @@ nav{
 .btn-primary {
     text-decoration: none;
     background-color: var(--greed);
-    color: #312e2e;
+    color: #fff;
     border: none;
     padding: 0.8rem 2rem;
     font-size: 0.9rem;
@@ -299,6 +299,10 @@ nav{
     from {
         opacity: 0;
     }
+    to {
+        opacity: 1;  
+    }
+}
     to {
         opacity: 1;  
     }
